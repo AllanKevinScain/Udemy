@@ -1,0 +1,21 @@
+<html lang="pt-BR">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Portal de Notícias!</h1>
+
+    <table>
+      <tr>
+        <td>ID</td>
+        <td>Título</td>
+      </tr>
+      <% for(var i=0;i<noticias.length;i++) { %>
+      <tr>
+        <td><%= noticias[i].idnoticias %></td>
+        <td><%= noticias[i].titulo %></td>
+      </tr>
+      <% } %>
+    </table>
+  </body>
+</html>

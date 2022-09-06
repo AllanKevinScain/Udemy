@@ -1,0 +1,15 @@
+**/.vcode
+**/.idea
+**/.eslintcache
+**/.stylelintcache
+**/build
+**/dist
+!**/__test__/**/dist
+**/node_modules
+**/test-results*
+**/*.log
+**/*.pid
+**/*.orig
+**/*.project
+**/*.settings
+.yarncache
